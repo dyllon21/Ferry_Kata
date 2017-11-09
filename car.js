@@ -4,8 +4,7 @@ var Car = function(color, passangers) {
   this.passangers = passangers;
 
 }
-
 module.exports = Car;
 
-var greenCar = new Car('green', 20);
-console.log(greenCar);
+// var greenCar = new Car('green', 20);
+// console.log(greenCar);

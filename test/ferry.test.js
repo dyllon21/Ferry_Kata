@@ -1,21 +1,27 @@
 const assert = require('assert');
+
 const Car = require('../car.js');
 const Ferry = require('../ferry.js');
+// const Board = require('../board.js');
 
-describe('It should', function() {
+describe('The Car constructor', function() {
 
-  it('specify the color of the car and the number of passangers in the car', function() {
+  it('should specify the color of the car and the number of passangers in the car', function() {
 
-    var greenCar = new Car('green', 4);
+    // var greenCar = new Car('green', 4);
     assert.equal = new Car('green', 4);
+
   })
 });
 
-describe('It should', function() {
 
-  it('specify the amount of passangers in the car and the amount of passangers allowed on the ferry', function() {
+describe('The Ferry constructor', function() {
 
-    var numOfCars = new Car(20, 25);
+  it('Should specify the amount of passangers and the amount of cars allowed on the Ferry', function() {
+
+    // var numOfCars = new Car(20, 25);
     assert.equal = new Car(20, 25);
+
   })
+
 });
