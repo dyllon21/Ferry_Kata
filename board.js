@@ -1,6 +1,10 @@
-var pizza = function(){
+var Car = function(color, regNumber){
+
+this.color = color;
+this.regNumber = regNumber;
+
+
+
 
 
 }
-
-console.dir(pizza);

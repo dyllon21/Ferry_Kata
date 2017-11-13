@@ -1,7 +1,8 @@
-var Car = function(color, passangers) {
+var Car = function(color, passangers, regNumber) {
 
   this.color = color;
   this.passangers = passangers;
+  this.regNumber = regNumber;
 
 }
 module.exports = Car;
